@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'webpacker', '~> 4.2', '>= 4.2.2'
 
 gem 'activeadmin'
+
 # Plus integrations with:
 gem 'devise'
 gem 'cancancan'
