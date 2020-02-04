@@ -78,10 +78,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-
-
 production:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   database: micro_production
-  pool: 5
+  username: micro
+  password: <%= ENV['MICRO_DATABASE_PASSWORD'] %>

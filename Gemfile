@@ -9,9 +9,10 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 group :development do
   gem 'sqlite3'
 end
-group :production do
-  gem 'pg'
-end
+gem 'pg'
+
+gem 'carrierwave'
+gem 'mini_magick'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
