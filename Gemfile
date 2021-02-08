@@ -44,7 +44,7 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'carrierwave', '~> 2.0', '>= 2.0.2'
+gem 'carrierwave', '~> 2.1'
 gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
